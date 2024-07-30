@@ -1,0 +1,131 @@
+body{
+  background-color:beige
+}
+
+
+.header {
+  position: relative;
+  overflow: hidden;
+  color: rgb(24, 21, 21);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.5rem;
+}
+
+#about, #classes,  #contact {
+  padding: 4rem 0;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer p {
+  margin: 0;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+
+  border-radius: 8px;
+  width: 600px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #850d63;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+button:hover {
+  background-color: #850d63;
+}
+
+.error {
+  color: red;
+  font-size: 0.875em;
+  height: 1em;
+}
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+.dark-mode .bg{
+  background-color: rgb(8, 8, 8);
+  color: #2c2929;
+
+}
+.dark-mode h2{
+  color: antiquewhite;
+}
+
+.dark-mode .bgcolor{
+  background-color: rgb(90, 8, 86);
+  color: white;
+}
+.dark-mode .navbar {
+  background-color: #333030 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode a{
+  color: #ffffff !important;
+  
+}
+.dark-mode button{
+  color: #ffffff !important;
+  
+}
+
+.dark-mode .card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(201, 196, 196, 0.3);
+}
+
+
