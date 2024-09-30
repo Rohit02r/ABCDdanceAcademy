@@ -129,3 +129,212 @@ body.dark-mode {
 }
 
 
+
+.card {
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+  
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+.card-body {
+  flex: 1;
+}
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+  transition: transform 0.3s ease;
+}
+
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider img {
+width: 100%;
+height: 100vh;
+object-fit: cover;
+border-radius: 15px;
+opacity: 0;
+position: absolute;
+top: 0;
+left: 0;
+filter: brightness(30%);
+transition: opacity 1s ease-in-out;
+}
+
+.slider img.active {
+opacity: 1;
+position: relative;
+}
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px; /* Add padding to make the buttons larger */
+  cursor: pointer;
+  z-index: 1;
+  width: 40px; /* Define a fixed width */
+  height: 40px; /* Define a fixed height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow.left {
+  left: 20px; /* Adjust to position the left arrow */
+}
+
+.arrow.right {
+  right: 20px; /* Adjust to position the right arrow */
+}
+
+.arrow:focus {
+  outline: none;
+}
+
+
+
+.social-icons img {
+  border-radius: 50%;
+  width: 40px;
+  margin: 0 10px;
+}
+
+
+
+.achievements {
+  padding: 50px 0;
+  background-color: #f8f9fa;
+}
+
+.achievements h2 {
+  margin-bottom: 30px;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  color: #000;
+}
+
+.whatsapp-sticky {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  text-decoration: none;
+}
+
+.whatsapp-sticky:hover {
+  background-color: #20b358;
+  transform: scale(1.1);
+}
+
+.map iframe{
+
+border-radius: 10px;
+}
+
+
+.slider-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+text-align: center;
+z-index: 2;
+font-size: 2rem;
+
+
+}
+
+.slider-text h1 {
+font-size: 3rem;
+font-family: 'Bebas Neue', sans-serif;
+}
+.slider-text p {
+font-size: 1.3rem;
+font-family: sans-serif;
+}
+
+
+.text-shadow {
+text-shadow: 6px 6px 60px rgba(7, 7, 7, 0.9); /* Adjust the values as needed */
+}
+.scroll-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+display: none;
+width: 50px;
+height: 50px;
+background-color: #6c757d; /* Grey background color */
+color: #fff; /* White color for the icon */
+border: none;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+z-index: 1000;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top i {
+font-size: 24px;
+color: #fff; /* White color for the icon */
+}
+
+.scroll-to-top:hover {
+background-color: #5a6268; /* Darker grey on hover */
+}
+
+.bgcolor{
+  background-color: rgb(133, 18, 127);
+  color: white;
+}
+
+.bg{
+  background-color: antiquewhite;
+
+}
+a:hover{
+  font-weight:bold
+
+}
+.forms{
+    background-color: rgb(75, 14, 72);
+
+}
+.fon{
+  font-family: "Lucida Handwriting", cursive;
+}
+
